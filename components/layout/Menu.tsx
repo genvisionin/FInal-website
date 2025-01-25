@@ -13,7 +13,7 @@ export default function Menu() {
   const navigationItems: NavigationItem[] = [
     { id: "services", label: "Services" },
     { id: "industry", label: "Industry" },
-    { id: "research", label: "Research Papers" },
+    { id: "research", label: "Research" },
     { id: "pricing", label: "Pricing" },
   ];
 

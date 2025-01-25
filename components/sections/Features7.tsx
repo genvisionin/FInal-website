@@ -41,11 +41,11 @@ export default function Features7() {
 
   return (
     <>
-      <section className="section-features-7 bg-neutral-100 section-padding">
+      <section id="Industry1" className="section-features-7 bg-neutral-100 section-padding">
         <div className="container">
           <div className="row mb-8 mb-lg-6">
             <div className="col-lg-6">
-              <h3 className="ds-3 mt-3 mb-3">Research Papers</h3>
+              <h3 className="ds-3 mt-3 mb-3">Research</h3>
               <p className="fs-5 fw-medium">
                 Explore our research and see how we're advancing the boundaries
                 of artificial intelligence

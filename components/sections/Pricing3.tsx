@@ -13,12 +13,12 @@ export default function Pricing3() {
   const getPrices = () => {
     if (activePlan === "monthly") {
       return {
-        standardPrice: "3000",
+        standardPrice: "4000",
         standardType: "/ month",
         businessPrice: "69",
         businessType: "/ month",
         enterprisePrice: "99",
-        price: "1500",
+        price: "2000",
         enterpriseType: "/ month",
       };
     } else {
@@ -145,14 +145,21 @@ export default function Pricing3() {
                     All-inclusive services to supercharge your business with AI
                   </p>
                   <div className="d-flex">
-                    <span className="fs-2 me-1 text-white">$</span>
-                    <h1 className="m-0 text-price-standard fw-black text-white">
-                      {prices.standardPrice}
-                    </h1>
-                    <span className="fs-2 text-white ms-1 fw-bold align-self-end text-type-standard">
-                      {prices.standardType}
-                    </span>
-                  </div>
+  <span className="fs-2 me-1 text-white">$</span>
+  <h3 className="m-0 text-price-standard fw-black text-white">
+    {prices.standardPrice}
+  </h3>
+  <span className="text-type-standard ms-1 fw-bold align-self-end text-white">
+    {prices.standardType}
+  </span>
+</div>
+
+<style jsx>{`
+  .text-type-standard {
+    font-size: 1rem; /* Makes the /month text smaller */
+    line-height: 2; /* Ensures alignment with the main price */
+  }
+`}</style>
 
                   <ul className="list-unstyled mb-0 mt-3">
                     <li className="d-flex align-items-center mb-4">

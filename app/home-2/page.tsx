@@ -30,11 +30,12 @@ export default function Home2() {
         {/* Services Section */}
         <div id="services">
           <Services4 />
-          <Services2 />
+
         </div>
 
         {/* Industry Section */}
         <div id="industry">
+         <Services2 />
           <Features1 />
           <LogoCloud5 />
         </div>

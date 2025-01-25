@@ -52,7 +52,7 @@ export default function Testimonial1() {
                     style={{ width: "30px", height: "30px" }}
                   />
                   <div className="d-flex flex-column">
-                    <h6 className="ms-3 fs-6 mb-0">Kathryn Murphy</h6>
+                    <h6 className="ms-3 fs-6 mb-0">Richard Olsen</h6>
                   </div>
                 </div>
                 <Link
@@ -78,7 +78,7 @@ export default function Testimonial1() {
                     style={{ width: "30px", height: "30px" }}
                   />
                   <div className="d-flex flex-column">
-                    <h6 className="ms-3 fs-6 mb-0">Emily Davis</h6>
+                    <h6 className="ms-3 fs-6 mb-0">Emily Johnson</h6>
                   </div>
                 </div>
                 <Link
@@ -106,7 +106,7 @@ export default function Testimonial1() {
                     style={{ width: "30px", height: "30px" }}
                   />
                   <div className="d-flex flex-column">
-                    <h6 className="ms-3 fs-6 mb-0">Sarah Thompson</h6>
+                    <h6 className="ms-3 fs-6 mb-0">Wei Zhang</h6>
                   </div>
                 </div>
                 <Link
@@ -132,7 +132,7 @@ export default function Testimonial1() {
                     style={{ width: "30px", height: "30px" }}
                   />
                   <div className="d-flex flex-column">
-                    <h6 className="ms-3 fs-6 mb-0">Emily Adams</h6>
+                    <h6 className="ms-3 fs-6 mb-0">Arjun Raj</h6>
                   </div>
                 </div>
                 <Link

@@ -53,7 +53,7 @@ export default function Services4() {
                     },
                     {
                       id: "v-pills-hr-consultancy",
-                      label: "Data Annotation & Model Optimization",
+                      label: "Annotation & Model Optimization",
                     },
                     { id: "v-pills-strategy", label: "AI Models Integrations" },
                     {
