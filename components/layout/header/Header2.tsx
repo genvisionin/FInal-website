@@ -4,6 +4,7 @@ import Search from "../Search";
 import OffCanvas from "../OffCanvas";
 import ThemeSwitch from "@/components/elements/ThemeSwitch";
 import Menu from "../Menu";
+import Head from "next/head"; // Import Head
 
 export default function Header2({
   scroll,
@@ -16,6 +17,25 @@ export default function Header2({
 }: any) {
   return (
     <>
+      <Head>
+        {/* Google Tag Script */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-XXXXXXXXXX', {
+                page_path: window.location.pathname,
+              });
+            `,
+          }}
+        ></script>
+      </Head>
       <header>
         <nav
           className={`navbar navbar-expand-lg navbar-light w-100 z-999 ${
