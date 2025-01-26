@@ -21,7 +21,7 @@ export default function Header2({
         {/* Google Tag Script */}
         <script
           async
-          src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+          src={`https://www.googletagmanager.com/gtag/js?id=AW-16828184207`}
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -29,7 +29,7 @@ export default function Header2({
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-XXXXXXXXXX', {
+              gtag('config', 'AW-16828184207', {
                 page_path: window.location.pathname,
               });
             `,
