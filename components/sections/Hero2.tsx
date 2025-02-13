@@ -136,7 +136,7 @@ export default function Hero2() {
                 }}
               >
                 <span style={{ fontWeight: 600, color: "white" }}>
-                  Hire a full Data Science team for a fixed monthly fee
+                  Hire Expert Data scientists for a fixed monthly fee
                 </span>{" "}
                 to enhance efficiency,
                 <br />
